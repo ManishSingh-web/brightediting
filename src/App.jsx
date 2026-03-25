@@ -12,7 +12,7 @@ const Home = lazy(()=> import('./Home'))
 const About = lazy(()=> import("./components/aboutpage/About"))
 const PinterestGallery = lazy(()=> import('./components/gallery/Gallery'))
 const Portfolio = lazy(() => import("./components/portfolio/Portfolio"))
-const ErrorPage = lazy ( () =>import("./components/errorpage/Errorpage"))
+const ErrorPage = lazy ( () =>import("./components/errorpage/ErrorPage"))
 
 
 const LoadAble = (Component) => {
