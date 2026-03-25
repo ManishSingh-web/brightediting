@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+@import "tailwindcss";
+
+
+
+
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+   font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+}
+
+@custom-variant dark ( &:where(.dark, .dark *));
+
+@theme {
+--color-primary: #0f172a;
+}
