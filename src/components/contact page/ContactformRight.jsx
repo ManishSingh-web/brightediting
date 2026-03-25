@@ -100,7 +100,7 @@ const ContactformRight = () => {
     
             <input type="text" placeholder='Full Name'
             name='name'
-            style={{ fontFamily: "Poppins, sans-serif" }}
+            style={{ fontFamily:"system-ui" }}
             required
             onChange={handleInputChange}
             value={formData.name}
