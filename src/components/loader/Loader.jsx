@@ -3,7 +3,7 @@ import logo from "../../assets/favicon.png";
 
 const Loader = () => {
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black z-50">
+    <div className="fixed inset-0 flex items-center justify-center z-50">
 
       <div className="relative flex items-center justify-center">
 
