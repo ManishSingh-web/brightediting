@@ -1,4 +1,5 @@
-import { useState, useRef, useEffect ,memo} from "react";
+import { useState, useRef, useEffect, memo } from "react";
+import { CgCode } from "react-icons/cg";
 
 const  BeforeAfterSlider = ({beforeImage,afterImage}) => {
   const containerRef = useRef(null);
@@ -77,8 +78,9 @@ const  BeforeAfterSlider = ({beforeImage,afterImage}) => {
             className="absolute top-0 h-full w-1 bg-amber-300 shadow-lg"
             style={{ left: `${position}%`, transform: "translateX(-50%)" }}
           >
-            <div className="absolute top-1/2 left-1/2 w-20 h-20 bg-amber-500 border-4 border-amber-300 text-center items-center rounded-full -translate-x-1/2 -translate-y-1/2 cursor-e-resize">
-             <h3 className=" text-white mt-2"> 24 h Turnaround</h3>
+            <div className="absolute top-1/2 left-1/2 border-3 border-amber-300 text-center items-center rounded-full -translate-x-1/2 -translate-y-1/2 cursor-e-resize">
+              {/* <h3 className="text-white"><CgCode /></h3> */}
+              <div className="text-white text-5xl max-sm:text-3xl"><CgCode /></div>
             </div>
           </div>
           <div className="absolute top-4 left-4 bg-black/50 text-white px-3 py-1 rounded-lg text-sm backdrop-blur-sm">

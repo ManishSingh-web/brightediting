@@ -6,16 +6,18 @@ import afterImage from '../../assets/heroAfter.jpg';
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 
-const discription = "High-quality photo enhancements that help real estate listings stand out and attract buyers."
+const discription = "High-quality real estate photo editing including HDR blending, sky replacement,object removal and retouching with fast delivery."
 
 
 const Hero = () => {
   return (
     <div className=' flex items-center justify-center flex-col gap-10 mt-10 flex-wrap px-4'>
 
-    <div className='flex items-center justify-center flex-col px-4'>
-        <h1 className='md:text-6xl sm:text-5xl max-sm:text-4xl font-extrabold text-center text-gray-800 dark:text-white'>MAKE EVERY PROPERTY <span className='bg-linear-to-r from-red-500 to-yellow-500 bg-clip-text text-transparent inline-flex'>LOOK ITS BEST</span></h1>
-        <p className='text-center text-gray-600 dark:text-white'>{discription.toUpperCase()}</p>
+    <div className='flex items-center justify-center flex-col px-4 mt-10'>
+        <h1 className='md:text-6xl sm:text-5xl max-sm:text-4xl font-extrabold text-center text-gray-800 dark:text-white'>Real Estate Photo Editing Services | <span className='bg-linear-to-r from-red-500 to-yellow-500 bg-clip-text text-transparent inline-flex'>Bright Editing</span></h1>
+
+        <h2 className="md:text-4xl sm:text-4xl max-sm:text-3xl font-extrabold text-center text-gray-800  dark:text-white mt-10">Professional Real Estate Photo Editing Services</h2>
+        <p className='text-center text-gray-600 dark:text-white'>{discription}</p>
 
          <div className='flex justify-center gap-4 mt-10 max-sm:flex-col max-sm:items-center'>
          
