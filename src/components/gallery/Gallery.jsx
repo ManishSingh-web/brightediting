@@ -12,8 +12,13 @@ import HDRAfter from '../../assets/HDRAfter.jpg';
 import IMG_1123 from '../../assets/IMG_1123-HDR.jpg';
 import IMG_1378 from '../../assets/IMG_1378-HDR.jpg';
 import IMG_1408 from '../../assets/IMG_1408-HDR.jpg';
+import IMG_1757 from '../../assets/IMG_1757-HDR after.jpg';
+import IMG_1760 from '../../assets/IMG_1760-HDR after.jpg';
+import IMG_1784 from '../../assets/IMG_1784-HDR after.jpg';
+import IMG_1811 from '../../assets/IMG_1811-HDR.jpg';
 
 const images = [
+   IMG_1811,
   retouchingaftermage,
  hdrblendingafter,
   skyreplacementafter,
@@ -23,6 +28,9 @@ const images = [
   windowpullafter,
     IMG_1378,
   droneafter,
+  IMG_1757,
+  IMG_1760,
+  IMG_1784,
   heroAfter,
   HDRAfter,
   IMG_1408
@@ -33,7 +41,7 @@ const PinterestGallery = () => {
 
   return (
     <div className="p-4">
-      
+      <h1 className='md:text-6xl sm:text-5xl max-sm:text-4xl font-extrabold text-center text-gray-800 dark:text-white my-15'>PHOTO | <span className='bg-linear-to-r from-red-500 to-yellow-500 bg-clip-text text-transparent inline-flex'>GALLERY</span></h1>
       {/* Gallery */}
       <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
         {images.map((src, index) => (
