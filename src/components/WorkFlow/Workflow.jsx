@@ -30,14 +30,14 @@ const workflow = [
 
  function Workflow() {
   return (
-    <section className="py-20 bg-gray-50 dark:bg-gray-950">
+    <section className="py-20 bg-gray-50 dark:bg-gray-950 rounded-2xl">
       <div className="max-w-6xl mx-auto px-6 text-center">
         
-        <h2 className="text-3xl md:text-4xl font-semibold text-gray-900">
+        <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 dark:text-gray-50">
           Our Workflow
         </h2>
         
-        <p className="mt-3 text-gray-500 max-w-xl mx-auto">
+        <p className="mt-3 text-gray-500 dark:text-gray-300 max-w-xl mx-auto">
           Simple, fast, and designed for real estate professionals.
         </p>
 
