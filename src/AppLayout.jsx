@@ -23,7 +23,7 @@ const AppLayout = () => {
    const location = useLocation();
   return (
     <>
-    <div className=' dark:bg-gray-950 scroll-smooth'>
+    <div className='bg-gray-50 dark:bg-gray-950 scroll-smooth'>
       <div className='sticky top-0 right-0 left-0 z-50'> 
         <NavbarComponent theme={theme} setTheme={setTheme} />
         </div>

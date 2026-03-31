@@ -41,7 +41,7 @@ const PinterestGallery = () => {
 
   return (
     <div className="p-4">
-      <h1 className='md:text-6xl sm:text-5xl max-sm:text-4xl font-extrabold text-center text-gray-800 dark:text-white my-15'>PHOTO | <span className='bg-linear-to-r from-red-500 to-yellow-500 bg-clip-text text-transparent inline-flex'>GALLERY</span></h1>
+      <h1 className='md:text-6xl sm:text-5xl max-sm:text-4xl font-extrabold text-center text-gray-800 dark:text-white my-15'>REAL ESTATE PHOTO | <span className='bg-linear-to-r from-red-500 to-yellow-500 bg-clip-text text-transparent inline-flex'>GALLERY</span></h1>
       {/* Gallery */}
       <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
         {images.map((src, index) => (

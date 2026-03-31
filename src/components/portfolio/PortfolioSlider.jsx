@@ -55,7 +55,7 @@ const  PortfolioSlider = ({beforeImage,afterImage}) => {
         >
           <img
             src={afterImage}
-            alt="after"
+            alt="real estate photo editing after"
             className="absolute inset-0 w-full h-full  object-cover  filter pointer-events-none"
           />
   
@@ -65,7 +65,7 @@ const  PortfolioSlider = ({beforeImage,afterImage}) => {
           >
             <img
               src={beforeImage}
-              alt="before"
+              alt="real estate photo editing before"
               className="w-full h-full object-cover pointer-events-none"
               style={{
                 width: containerRef.current
@@ -78,10 +78,10 @@ const  PortfolioSlider = ({beforeImage,afterImage}) => {
           <div
             onMouseDown={startDrag}
             onTouchStart={startTouch}
-            className="absolute top-0 h-full w-1 bg-amber-300 shadow-lg"
+            className="absolute top-0 h-full w-1 bg-indigo-500 shadow-lg"
             style={{ left: `${position}%`, transform: "translateX(-50%)" }} >
             
-            <div className="absolute top-1/2 left-1/2 border-3 border-amber-300 text-center items-center rounded-full -translate-x-1/2 -translate-y-1/2 cursor-e-resize">
+            <div className="absolute top-1/2 left-1/2 border-3 border-indigo-500 text-center items-center rounded-full -translate-x-1/2 -translate-y-1/2 cursor-e-resize">
                           {/* <h3 className="text-white"><CgCode /></h3> */}
                           <div className="text-white text-5xl max-sm:text-3xl"><CgCode /></div>
                         </div>

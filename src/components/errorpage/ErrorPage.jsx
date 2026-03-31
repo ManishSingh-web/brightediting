@@ -67,16 +67,14 @@ const ErrorPage = () => {
           transition={{ delay: 0.2 }}
         >
           <Link to="/">
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              className="relative px-8 py-3 rounded-full bg-white text-black font-medium overflow-hidden group cursor-pointer"
+            <button
+              className="relative px-8 py-3 rounded-full bg-indigo-500 text-white font-medium overflow-hidden group cursor-pointer hover:bg-indigo-600 transition duration-300"
             >
               <span className="relative z-10">Go Back Home</span>
 
               {/* Hover glow effect */}
               <span className="absolute inset-0 bg-linear-to-r from-purple-500 to-blue-500 opacity-0 group-hover:opacity-30 transition duration-300 blur-xl"></span>
-            </motion.button>
+            </button>
           </Link>
         </motion.div>
 

@@ -8,7 +8,7 @@ const Loader = () => {
       <div className="relative flex items-center justify-center">
 
         {/* 🔄 Spinner Ring */}
-        <div className="w-32 h-32 border-4 border-gray-600 border-t-white rounded-full animate-spin"></div>
+        <div className="w-32 h-32 border-4 border-gray-50 border-t-indigo-600 rounded-full animate-spin"></div>
 
         {/* 🖼️ Logo in Center */}
        <img

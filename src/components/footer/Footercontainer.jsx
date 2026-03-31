@@ -18,7 +18,7 @@ import BrightEditing_logo_cutout from '../../assets/BrightEditing_logo_cutout.pn
         
         <h1 className='md:text-6xl sm:text-5xl max-sm:text-4xl text-center text-6xl text-gray-800 dark:text-white'>ready to transform your <span className='bg-linear-to-r from-red-500 to-yellow-500 bg-clip-text text-transparent'>property photos?</span> </h1>
         <p className='text-center dark:text-white'>get started with a free trial and see the difference professional editing makes.</p>
-       <NavLink to="/contact"><div className='flex justify-center items-center gap-1 cursor-pointer bg-amber-500 text-white  hover:bg-amber-600 transition-colors duration-300 px-4 py-2 rounded-md max-sm:px-2 max-sm:py-1'> <GiPolarStar /> <span>request free trial</span> </div></NavLink>
+       <NavLink to="/contact"><div className='flex justify-center items-center gap-1 cursor-pointer bg-indigo-500 text-white  hover:bg-indigo-600 transition-colors duration-300 px-4 py-2 rounded-md max-sm:px-2 max-sm:py-1'> <GiPolarStar /> <span>request free trial</span> </div></NavLink>
        
 
         </div>   
@@ -29,7 +29,7 @@ import BrightEditing_logo_cutout from '../../assets/BrightEditing_logo_cutout.pn
                 <div className='flex justify-center items-center  -m-3'>
                 <img src={theme==="dark" ? BrightEditing_darklogo_cutout_new  : BrightEditing_logo_cutout } alt="logo" className="w-25 min-w-15 h-20 min-h-7" />
                 </div>
-                <p className='dark:text-gray-300 text-sm text-left max-md:text-center'>professional reak estate photo editing services that <br></br> makes every property shine</p>
+                <p className='dark:text-gray-300 text-sm text-left max-md:text-center' style={{fontFamily:"system-ui"}}>Professional real estate photo editing services that <br></br> makes every property shine</p>
              </div>
 
              <div>
@@ -40,7 +40,7 @@ import BrightEditing_logo_cutout from '../../assets/BrightEditing_logo_cutout.pn
                      <a
                         href="mailto:maneeshdangi56@gmail.com?subject=Photo Editing Inquiry"
                         style={{ fontFamily:"system-ui"}}
-                      className="flex items-center gap-2 text-gray-700 hover:text-amber-500 transition  className='break-all text-[16px] '">
+                      className="flex items-center gap-2 text-gray-700 hover:text-indigo-500 transition  className='break-all text-[16px] '">
                         <CiMail />
                       maneeshdangi56@gmail.com
                     </a>
@@ -51,11 +51,11 @@ import BrightEditing_logo_cutout from '../../assets/BrightEditing_logo_cutout.pn
              <div>
                 <h1 className='dark:text-white'>follow us</h1>
                 <div className='flex gap-5 dark:text-white mt-1.5 '>
-                  <div className='p-2 bg-gray-200 rounded dark:bg-gray-900 cursor-pointer  hover:text-amber-500 transition'><a href="https://www.instagram.com/bright_editing? igsh=dWdzN2RvdGszdDBo"
+                  <div className='p-2 bg-gray-200 rounded dark:bg-gray-900 cursor-pointer  hover:text-indigo-500 transition'><a href="https://www.instagram.com/bright_editing? igsh=dWdzN2RvdGszdDBo"
                            target="_blank"
                            rel="noopener noreferrer"><FaInstagram /></a>  </div>
-                  <div className='p-2 bg-gray-200 rounded  dark:bg-gray-900 cursor-pointer  hover:text-amber-500 transition'><a href='https://www.facebook.com/share/1AvDZdKEbG/' target='blank'> <PiFacebookLogoLight /> </a></div>
-                  <div className='p-2 bg-gray-200 rounded  dark:bg-gray-900 cursor-pointer  hover:text-amber-500 transition'> <a href='https://wa.me/919319744830?text=Hello%20I%20want%20to%20know%20about%20your%20photo%20editing%20services' target='blank'><FaWhatsapp /> </a> </div>
+                  <div className='p-2 bg-gray-200 rounded  dark:bg-gray-900 cursor-pointer  hover:text-indigo-500 transition'><a href='https://www.facebook.com/share/1AvDZdKEbG/' target='blank'> <PiFacebookLogoLight /> </a></div>
+                  <div className='p-2 bg-gray-200 rounded  dark:bg-gray-900 cursor-pointer  hover:text-indigo-500 transition'> <a href='https://wa.me/919319744830?text=Hello%20I%20want%20to%20know%20about%20your%20photo%20editing%20services' target='blank'><FaWhatsapp /> </a> </div>
                   
                   
                   

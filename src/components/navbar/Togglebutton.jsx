@@ -17,7 +17,7 @@ const Togglebutton = ({theme , setTheme}) => {
 
   return (
     
-      <div className=' cursor-pointer rounded-full p-2  dark:text-white bg-yellow-500' onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>
+      <div className=' cursor-pointer rounded-full p-2 text-white bg-indigo-500' onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>
       {theme === 'light' ? <BsFillMoonStarsFill /> : <MdSunny />}
         
       </div>

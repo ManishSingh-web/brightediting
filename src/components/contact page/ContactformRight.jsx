@@ -83,9 +83,9 @@ const ContactformRight = () => {
                 duration: 0.4,
                 scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
                }}
-    className='flex flex-col items-center mt-10 font-sans w-120 px-10 py-10 rounded-2xl bg-gray-200 dark:bg-gray-900'>
-      <h2 className='text-3xl font-bold mb-6 text-center max-sm:text-2xl '>Send us a message</h2>
-      <form className='flex flex-col w-full max-w-lg mt-10 font-sans  ' onSubmit={handleSubmit}>
+    className='flex flex-col items-center mt-10 font-sans w-120 px-10 py-10 rounded-2xl bg-white dark:bg-gray-950 border border-gray-300 dark:border-gray-700 shadow-lg'>
+      <h2 className='text-3xl font-bold mb-6 text-center max-sm:text-2xl text-indigo-500'>Send us a message</h2>
+      <form className='flex flex-col w-full max-w-lg mt-10 font-sans' onSubmit={handleSubmit}>
 
          {/* Spam protection */}
       <input
@@ -105,7 +105,7 @@ const ContactformRight = () => {
             onChange={handleInputChange}
             value={formData.name}
             autoComplete='name'
-             className=' rounded-md p-2 mb-4 w-full bg-gray-300 text-yellow-600  dark:bg-gray-600  outline-0  ' />
+             className=' rounded-md p-2 mb-4 w-full bg-indigo-400 text-gray-950 dark:text-gray-50  dark:bg-indigo-600  outline-0  ' />
 
             <input type="email" placeholder='Email Address'
             name='email'
@@ -114,7 +114,7 @@ const ContactformRight = () => {
             onChange={handleInputChange}
             value={formData.email}
             autoComplete='email'
-             className=' rounded-md p-2 mb-4 w-full font-sans bg-gray-300   dark:bg-gray-600 text-yellow-600  outline-0 ' />
+             className=' rounded-md p-2 mb-4 w-full font-sans  bg-indigo-400 text-gray-950 dark:text-gray-50  dark:bg-indigo-600   outline-0 ' />
 
             <input type="tel" placeholder='Phone / WhatsApp Number'
             name='number'
@@ -123,7 +123,7 @@ const ContactformRight = () => {
             style={{ fontFamily:"system-ui" }}
             required
             autoComplete='tel'
-            className=' rounded-md p-2 mb-4 w-full bg-gray-300   dark:bg-gray-600 text-yellow-600  outline-0 ' />
+            className=' rounded-md p-2 mb-4 w-full  bg-indigo-400 text-gray-950 dark:text-gray-50  dark:bg-indigo-600   outline-0 ' />
 
             <input type="text" placeholder='Company Name / business'
             name='company'
@@ -132,7 +132,7 @@ const ContactformRight = () => {
             onChange={handleInputChange}
             value={formData.company}
             autoComplete="organization"
-             className=' rounded-md p-2 mb-4 w-full bg-gray-300 dark:bg-gray-600 text-yellow-600   outline-0 ' />
+             className=' rounded-md p-2 mb-4 w-full  bg-indigo-400 text-gray-950 dark:text-gray-50  dark:bg-indigo-600   outline-0 ' />
 
              <input type="text" placeholder='Country'
              name='country'
@@ -141,12 +141,12 @@ const ContactformRight = () => {
             onChange={handleInputChange}
             value={formData.country}
             autoComplete="country-name"
-             className=' rounded-md p-2 mb-4 w-full bg-gray-300   dark:bg-gray-600 text-yellow-600  outline-0 ' />
+             className=' rounded-md p-2 mb-4 w-full  bg-indigo-400 text-gray-950 dark:text-gray-50  dark:bg-indigo-600   outline-0 ' />
 
             <select value={formData.service} onChange={handleInputChange} 
             name="service" style={{ fontFamily:"system-ui" }}
             required
-            className=' rounded-md p-2 mb-4 w-full dark:bg-gray-600 text-yellow-600  bg-gray-300    outline-0 '>
+            className=' rounded-md p-2 mb-4 w-full  bg-indigo-400 text-gray-950 dark:text-gray-50  dark:bg-indigo-600    outline-0 '>
                   <option value="" disabled>Select plan</option>
                   <option value="basic">Basic Editing</option>
                   <option value="pro">Pro Editing</option>
@@ -160,20 +160,20 @@ const ContactformRight = () => {
                value={formData.file_link}
                onChange={handleInputChange}
                placeholder="Paste file link"
-             className='rounded-md p-2 mb-4 w-full hover:bg-gray-700 bg-gray-300  text-yellow-600  dark:bg-gray-600  outline-0 ' />
+             className='rounded-md p-2 mb-4 w-full hover:bg-gray-700  bg-indigo-400 text-gray-950 dark:text-gray-50  dark:bg-indigo-600   outline-0 ' />
 
             <textarea placeholder='Message'
             name='message'
             onChange={handleInputChange}
             value={formData.message}
            style={{ fontFamily:"system-ui" }}
-            className='rounded-md p-2 mb-4 w-full min-h-32 dark:bg-gray-600 bg-gray-300   text-yellow-600  outline-0 '></textarea>
+            className='rounded-md p-2 mb-4 w-full min-h-32  bg-indigo-400 text-gray-950 dark:text-gray-50  dark:bg-indigo-600   outline-0 '></textarea>
 
 
             <button
             type="submit"
             disabled={loading}
-            className="flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-600 transition-colors
+            className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 transition-colors
           duration-300 text-white px-4 py-2 rounded-md cursor-pointer disabled:opacity-70">
   {loading ? (
     <>
