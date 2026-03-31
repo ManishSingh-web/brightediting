@@ -1,7 +1,7 @@
 import React from 'react'
 import bgImage from "../../assets/aboutpageBgimg.jpg";
 import { CgFontSpacing } from 'react-icons/cg';
-import Workflow from '../WorkFlow/WorkFlow';
+import Workflow from '../WorkFlow/Workflow';
 
 const About = () => {
   return (

@@ -9,7 +9,7 @@ import { BsCloudSun } from "react-icons/bs";
 import { IoColorFilterOutline } from "react-icons/io5";
 import { MdWbTwilight } from "react-icons/md";
 import { motion } from 'framer-motion';
-import Workflow from '../WorkFlow/WorkFlow';
+import Workflow from '../WorkFlow/Workflow';
 
 const arrayofServices = [
     

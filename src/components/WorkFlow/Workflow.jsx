@@ -1,6 +1,6 @@
 import { Upload, FileText, Image, Clock, RefreshCcw } from "lucide-react";
 
-const workflow = [
+const workflowArray = [
   {
     icon: <Upload className="w-6 h-6" />,
     title: "Send Images",
@@ -28,7 +28,7 @@ const workflow = [
   }
 ];
 
- function Workflow() {
+ function WorkFlow() {
   return (
     <section className="py-20 bg-gray-50 dark:bg-gray-950 rounded-2xl">
       <div className="max-w-6xl mx-auto px-6 text-center">
@@ -42,7 +42,7 @@ const workflow = [
         </p>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
-          {workflow.map((step, i) => (
+          {workflowArray.map((step, i) => (
             <div
               key={i}
               className="group bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition duration-300"
@@ -67,4 +67,4 @@ const workflow = [
   );
 }
 
-export default Workflow;
+export default WorkFlow;
