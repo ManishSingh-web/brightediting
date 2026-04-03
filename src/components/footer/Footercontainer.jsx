@@ -38,11 +38,11 @@ import BrightEditing_logo_cutout from '../../assets/BrightEditing_logo_cutout.pn
                     
                    
                      <a
-                        href="mailto:maneeshdangi56@gmail.com?subject=Photo Editing Inquiry"
+                        href="mailto:info@brightediting.in?subject=Photo Editing Inquiry"
                         style={{ fontFamily:"system-ui"}}
                       className="flex items-center gap-2 text-gray-700 hover:text-indigo-500 transition  className='break-all text-[16px] '">
                         <CiMail />
-                      maneeshdangi56@gmail.com
+                      info@brightediting.in
                     </a>
                 </div>
                 

@@ -28,7 +28,7 @@ const data = [
         id: 3,
         icon: <MdEmail />,
         title: 'email',
-        description: 'maneeshdangi56@gmail.com'
+        description: 'info@brightediting.in'
     },
      {
         id: 4,
