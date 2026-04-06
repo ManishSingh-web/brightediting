@@ -16,6 +16,8 @@ import IMG_1757 from '../../assets/IMG_1757-HDR after.jpg';
 import IMG_1760 from '../../assets/IMG_1760-HDR after.jpg';
 import IMG_1784 from '../../assets/IMG_1784-HDR after.jpg';
 import IMG_1811 from '../../assets/IMG_1811-HDR.jpg';
+import WandP_after from '../../assets/W&P after.jpg';
+import HDR_new_after from '../../assets/HDR new after.jpg';
 
 const images = [
    IMG_1811,
@@ -33,7 +35,9 @@ const images = [
   IMG_1784,
   heroAfter,
   HDRAfter,
-  IMG_1408
+  IMG_1408,
+  WandP_after,
+  HDR_new_after
 ];
 
 const PinterestGallery = () => {
