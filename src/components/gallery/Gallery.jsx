@@ -1,43 +1,50 @@
-import React, { lazy, useState } from "react";
+import React, {useState } from "react";
 
-import retouchingaftermage from '../../assets/retouching after.jpg';
-import hdrblendingafter from '../../assets/hdr blending after.jpg';
+import HDR_Edit_optimize from '../../assets/IMG_3946-HDR-Edit_optimize.jpg';
 import skyreplacementafter from '../../assets/sky replacement after.jpg';
 import objectremovelafter from '../../assets/object removel after.jpg';
 import colorcorectionafter from '../../assets/color corection after.jpg';
-import windowpullafter from '../../assets/window pull after.jpg';
+
 import droneafter from '../../assets/drone after.jpg';
 import heroAfter from '../../assets/heroAfter.jpg';
 import HDRAfter from '../../assets/HDRAfter.jpg';
 import IMG_1123 from '../../assets/IMG_1123-HDR.jpg';
 import IMG_1378 from '../../assets/IMG_1378-HDR.jpg';
-import IMG_1408 from '../../assets/IMG_1408-HDR.jpg';
+
 import IMG_1757 from '../../assets/IMG_1757-HDR after.jpg';
 import IMG_1760 from '../../assets/IMG_1760-HDR after.jpg';
 import IMG_1784 from '../../assets/IMG_1784-HDR after.jpg';
 import IMG_1811 from '../../assets/IMG_1811-HDR.jpg';
-import WandP_after from '../../assets/W&P after.jpg';
+
 import HDR_new_after from '../../assets/HDR new after.jpg';
+import _02A2319_HDR_Edit from '../../assets/_02A2319-HDR-Edit.jpg';
+import _02A2345_HDR_Edit from '../../assets/02A2345-HDR-after.jpg';
+import PICC5395 from '../../assets/PICC5395-HDR-Edit.jpg';
+import PICC5449 from '../../assets/PICC5449-HDR-Edit.jpg';
+import PICC5458 from '../../assets/PICC5458-HDR-Edit.jpg';
+import PICC5467 from '../../assets/PICC5467-HDR-Edit.jpg';
 
 const images = [
+  HDR_Edit_optimize,
    IMG_1811,
-  retouchingaftermage,
- hdrblendingafter,
   skyreplacementafter,
     IMG_1123,
   objectremovelafter,
   colorcorectionafter,
-  windowpullafter,
-    IMG_1378,
+  IMG_1378,
   droneafter,
   IMG_1757,
   IMG_1760,
   IMG_1784,
   heroAfter,
   HDRAfter,
-  IMG_1408,
-  WandP_after,
-  HDR_new_after
+  HDR_new_after,
+  _02A2319_HDR_Edit,
+  _02A2345_HDR_Edit,
+  PICC5395,
+  PICC5449,
+  PICC5458,
+  PICC5467
 ];
 
 const PinterestGallery = () => {
@@ -47,7 +54,7 @@ const PinterestGallery = () => {
     <div className="p-4">
       <h1 className='md:text-6xl sm:text-5xl max-sm:text-4xl font-extrabold text-center text-gray-800 dark:text-white my-15'>REAL ESTATE PHOTO | <span className='bg-linear-to-r from-red-500 to-yellow-500 bg-clip-text text-transparent inline-flex'>GALLERY</span></h1>
       {/* Gallery */}
-      <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
+      <div className="columns-1 sm:columns-2 md:columns-2 lg:columns-3 gap-4 space-y-4">
         {images.map((src, index) => (
           <div
             key={index}

@@ -2,20 +2,19 @@ import React from 'react'
 import PortfolioSlider from './PortfolioSlider'
 import retouchingbefore from '../../assets/IMG_1760-HDR before.jpg';
 import retouchingaftermage from '../../assets/IMG_1760-HDR after.jpg';
-import hdrblendingbefore from '../../assets/HDR new before.jpg';
-import hdrblendingafter from '../../assets/HDR new after.jpg';
+import hdrblendingbefore from '../../assets/PICC5458-HDR-before.jpg';
+import hdrblendingafter from '../../assets/PICC5458-HDR-Edit.jpg';
 import skyreplacementbefore from '../../assets/sky replacement before.jpg';
 import skyreplacementafter from '../../assets/sky replacement after.jpg';
 import objectremovelbefore from '../../assets/object removel before.jpg';
 import objectremovelafter from '../../assets/object removel after.jpg';
-import colorcorectionbefore from '../../assets/IMG_1784-HDR before.jpg';
-import colorcorectionafter from '../../assets/IMG_1784-HDR after.jpg';
-import windowpullbefore from '../../assets/W&P before.jpg';
-import windowpullafter from '../../assets/W&P after.jpg';
+import colorcorectionbefore from '../../assets/HDR new before.jpg';
+import colorcorectionafter from '../../assets/HDR new after.jpg';
+import windowpullbefore from '../../assets/IMG_3946-HDR-before_optimize.jpg';
+import windowpullafter from '../../assets/IMG_3946-HDR-Edit_optimize.jpg';
 
 import { motion } from 'framer-motion';
 import { NavLink } from 'react-router-dom';
-import { img } from 'framer-motion/client';
 
 
 

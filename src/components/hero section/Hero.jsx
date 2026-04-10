@@ -1,8 +1,8 @@
 
 import { FaArrowRightFromBracket } from "react-icons/fa6";
 import BeforeAfterSlider from './BeforeAfterSlider';
-import beforeImage from '../../assets/IMG_1757-HDR befor.jpg';
-import afterImage from '../../assets/IMG_1757-HDR after.jpg';
+import beforeImage from '../../assets/02A2345-HDR-before.jpg';
+import afterImage from '../../assets/02A2345-HDR-after.jpg';
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 
