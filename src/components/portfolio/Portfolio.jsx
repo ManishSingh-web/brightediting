@@ -1,15 +1,15 @@
 import React from 'react'
 import PortfolioSlider from './PortfolioSlider'
-import retouchingbefore from '../../assets/IMG_1760-HDR before.jpg';
-import retouchingaftermage from '../../assets/IMG_1760-HDR after.jpg';
+import retouchingbefore from '../../assets/_02A1001-HDR-Edit before.jpg';
+import retouchingaftermage from '../../assets/_02A1001-HDR-Edit.jpg';
 import hdrblendingbefore from '../../assets/PICC5458-HDR-before.jpg';
 import hdrblendingafter from '../../assets/PICC5458-HDR-Edit.jpg';
 import skyreplacementbefore from '../../assets/sky replacement before.jpg';
 import skyreplacementafter from '../../assets/sky replacement after.jpg';
 import objectremovelbefore from '../../assets/object removel before.jpg';
 import objectremovelafter from '../../assets/object removel after.jpg';
-import colorcorectionbefore from '../../assets/HDR new before.jpg';
-import colorcorectionafter from '../../assets/HDR new after.jpg';
+import colorcorectionbefore from '../../assets/_02A0947-HDR-Edit before.jpg';
+import colorcorectionafter from '../../assets/_02A0947-HDR-Edit.jpg';
 import windowpullbefore from '../../assets/IMG_3946-HDR-before_optimize.jpg';
 import windowpullafter from '../../assets/IMG_3946-HDR-Edit_optimize.jpg';
 

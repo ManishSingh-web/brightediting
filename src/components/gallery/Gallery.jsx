@@ -3,7 +3,6 @@ import React, {useState } from "react";
 import HDR_Edit_optimize from '../../assets/IMG_3946-HDR-Edit_optimize.jpg';
 import skyreplacementafter from '../../assets/sky replacement after.jpg';
 import objectremovelafter from '../../assets/object removel after.jpg';
-import colorcorectionafter from '../../assets/color corection after.jpg';
 
 import droneafter from '../../assets/drone after.jpg';
 import heroAfter from '../../assets/heroAfter.jpg';
@@ -23,6 +22,17 @@ import PICC5395 from '../../assets/PICC5395-HDR-Edit.jpg';
 import PICC5449 from '../../assets/PICC5449-HDR-Edit.jpg';
 import PICC5458 from '../../assets/PICC5458-HDR-Edit.jpg';
 import PICC5467 from '../../assets/PICC5467-HDR-Edit.jpg';
+import _02A0947 from '../../assets/_02A0947-HDR-Edit.jpg';
+import _02A0979 from '../../assets/_02A0979-HDR-Edit-2.jpg';
+import _02A1001 from '../../assets/_02A1001-HDR-Edit.jpg';
+import _02A1173 from '../../assets/_02A1173.jpg';
+import _02A1358 from '../../assets/_02A1358.jpg';
+import _02A1370 from '../../assets/_02A1370.jpg';
+import _02A1410 from '../../assets/_02A1410.jpg';
+import _02A1421 from '../../assets/_02A1421.jpg';
+import _02A1447 from '../../assets/_02A1447.jpg';
+import _02A1511 from '../../assets/_02A1511.jpg';
+
 
 const images = [
   HDR_Edit_optimize,
@@ -30,7 +40,6 @@ const images = [
   skyreplacementafter,
     IMG_1123,
   objectremovelafter,
-  colorcorectionafter,
   IMG_1378,
   droneafter,
   IMG_1757,
@@ -44,7 +53,17 @@ const images = [
   PICC5395,
   PICC5449,
   PICC5458,
-  PICC5467
+  PICC5467,
+  _02A0947,
+  _02A0979,
+  _02A1001,
+  _02A1173,
+  _02A1358,
+  _02A1370,
+  _02A1410,
+  _02A1421,
+  _02A1447,
+  _02A1511
 ];
 
 const PinterestGallery = () => {
