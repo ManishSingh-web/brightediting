@@ -49,7 +49,7 @@ const Pricing = () => {
              className='p-4 w-80 h-100 min-w-40 flex justify-center items-center flex-col  flex-wrap bg-white dark:bg-gray-950 rounded-2xl gap-3 text-gray-600 border-0 dark:text-white dark:border-2 border-gray-300 shadow-sm hover:shadow-lg transition duration-300 dark:shadow-indigo-700'>
                 <h3 className='text-gray-950 dark:text-gray-50' >⭐Most Popular|<span className='text-indigo-500'>Pro Editing </span></h3>
                  <p className=' text-center text-sm dark:text-gray-50' style={{fontFamily:"system-ui", fontStyle:"italic"}}>For high-quality, professional results</p>
-                 <p className='text-center text-xl text-gray-950 dark:text-gray-50'>Starting at $1 / image · 24h Delivery</p>
+                 <p className='text-center text-xl text-gray-950 dark:text-gray-50'>Starting at $0.60 / image · 24h Delivery</p>
                  <ul className='list-disc list-inside mt-2 text-xl font-normal'>
                     <li>Advanced color correction</li>
                     <li>Sky replacement</li>
@@ -70,7 +70,7 @@ const Pricing = () => {
             className='p-4 w-80 h-100 min-w-40 flex justify-center items-center flex-col  flex-wrap bg-white dark:bg-gray-950 rounded-2xl gap-3 text-gray-600 border-0 dark:text-white dark:border-2 border-gray-300 shadow-sm hover:shadow-lg transition duration-300 dark:shadow-indigo-700'>
                 <h3 className='text-indigo-500'>Bulk Plan</h3>
                  <p className=' text-center  text-sm dark:text-gray-50'style={{fontFamily:"system-ui", fontStyle:"italic"}} >Best for high-volume photographers</p>
-                 <p className='text-center text-xl text-gray-950 dark:text-gray-50'>Starting at $0.80 / image <br /> <span style={{fontFamily:"system-ui", fontStyle:"italic"}} className='text-sm text-gray-600 dark:text-gray-50'>300+ images / month</span> </p>
+                 <p className='text-center text-xl text-gray-950 dark:text-gray-50'>Starting at $0.50 / image <br /> <span style={{fontFamily:"system-ui", fontStyle:"italic"}} className='text-sm text-gray-600 dark:text-gray-50'>300+ images / month</span> </p>
                  <ul className='list-disc list-inside mt-2 text-xl font-normal'>
                     <li>All Pro features</li>
                     <li>Priority delivery</li>
